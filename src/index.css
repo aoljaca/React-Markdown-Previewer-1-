@@ -1,0 +1,38 @@
+marked.min {
+  padding-left: 100px
+}
+img[src*="#thumbnail"] {
+   width:15%;
+   height:50%;
+   margin-left: 50%
+}
+#editor {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: 200px;
+  margin-bottom: 35px;
+  border: 10px solid blue
+}
+#preview {
+  margin: auto;
+  width: 50%;
+  border: 5px solid red;
+  padding-left: 150px;
+  padding-right: 150px;
+  word-wrap: break-word;
+}
+h1 {
+  text-align: center
+}
+textarea {
+  resize: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #preview {
+  padding-left: 70px;
+  padding-right: 70px;
+}
+}
